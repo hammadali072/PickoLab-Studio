@@ -1,0 +1,683 @@
+@media only screen and (max-width:1200px) and (min-width:992px){
+   html{
+    font-size: 70.5%;
+   }
+    .container{
+        width: 960px;
+    }
+    .benefit-2{
+        .left-col{
+            .line{
+                .svg-frame{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .procedure-1{
+        .wrapper{
+            .proc-1-cards{
+                .proc-1-card{
+                    &::before{
+                        top: -8%;
+                        left: -8%;
+                    }
+                }
+            }
+        }
+    }
+    .procedure-2{
+        .right-col{
+            .proc-2-steps{
+                .proc-2-step{
+                    &:first-child::before{
+                        bottom: -40%;
+                        left: 1%;
+                    }
+                    &:nth-child(2)::before{
+                        bottom: -90%;
+                        left: 5%;
+                    }
+                }
+            }
+        }
+    }
+    .pricing{
+        .overview{
+            .offer{
+                &::before{
+                    width: 3.567rem;
+                    height: 3.127rem;
+                    background: url('../src/Arrow_07.svg');
+                    background-size: 4.567rem;
+                    top: -100%;
+                    right: -70%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:992px) and (min-width:768px){
+    html{
+        font-size: 62.5%;
+    }
+    .container{
+        max-width: 720px;
+    }
+    .benefit-2{
+        .left-col{
+            .line{
+                .svg-frame{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .procedure-1{
+        .wrapper{
+            .proc-1-cards{
+                .proc-1-card{
+                    &::before{
+                        top: -8%;
+                        left: -8%;
+                    }
+                }
+            }
+        }
+    }
+    .procedure-2{
+        .right-col{
+            grid-column: 7/13;
+            .proc-2-steps{
+                .proc-2-step{
+                    border: none;
+                    &:first-child::before{
+                        bottom: -50%;
+                        left: 1%;
+                    }
+                    &:nth-child(2)::before{
+                        bottom: -90%;
+                        left: 5%;
+                    }
+                }
+            }
+        }
+    }
+    .pricing{
+        .overview{
+            .offer{
+                &::before{
+                    width: 3.567rem;
+                    height: 3.127rem;
+                    background: url('../src/Arrow_07.svg');
+                    background-size: 4.567rem;
+                    top: -100%;
+                    right: -70%;
+                }
+            }
+            .toggle{
+                .slider{
+                    &::before{
+                        left: 0.313rem;
+                        bottom: 0.300rem;
+                    }
+                }
+            }
+        }
+    }
+    .cta{
+        .wrapper{
+            .right-col{
+                img{
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:992px){
+    .stories{
+        .main-content{
+            .content{
+                .benefits{
+                    .beneficial{
+                        align-items: center;
+                        img{
+                            width: 1.875rem;
+                            height: 1.875rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .hero-section{
+        header{
+            .nav-bar, .nav-button{
+                display: none;
+            }
+            .burger-icon{
+                display: block;
+            }
+        }
+    }
+    .procedure-2{
+        .right-col{
+            grid-column: 7/13;
+            .proc-2-steps{
+                .proc-2-step{
+                    &:first-child::before{
+                        bottom: -50%;
+                        left: 1%;
+                    }
+                    &:nth-child(2)::before{
+                        bottom: -95%;
+                        left: 5.5%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px) and (min-width:576px){
+    html{
+        font-size: 50.5%;
+    }
+    .container{
+        max-width: 540px;
+    }
+    .hero-section{
+        header{
+            .logo{
+                img{
+                    max-width: 70%;
+                }
+            }
+        }
+    }
+    .procedure-1{
+        .wrapper{
+            .proc-1-cards{
+                .proc-1-card{
+                    &::before{
+                        top: -10%;
+                        left: -12%;
+                    }
+                }
+            }
+        }
+    }
+    .procedure-2{
+        .right-col{
+            grid-column: 7/13;
+            .proc-2-steps{
+                .proc-2-step{
+                    &:first-child::before{
+                        bottom: -50%;
+                        left: 1%;
+                    }
+                    &:nth-child(2)::before{
+                        bottom: -95%;
+                        left: 5.5%;
+                    }
+                }
+            }
+        }
+    }
+    .pricing{
+        .overview{
+            .offer{
+                &::before{
+                    width: 3.567rem;
+                    height: 3.127rem;
+                    background: url('../src/Arrow_07.svg');
+                    background-size: 4.567rem;
+                    top: -100%;
+                    right: -70%;
+                }
+            }
+            .toggle{
+                .slider{
+                    &::before{
+                        left: 0.313rem;
+                        bottom: 0.290rem;
+                    }
+                }
+            }
+        }
+        .content{
+            .cards{
+                grid-template-columns: repeat(minmax(0px,1fr));
+                .card{
+                    .plan-tag{
+                        img{
+                            width: 2.7rem;
+                            height: 2.7rem;
+                        }
+                    }
+                    .features{
+                        .feature{
+                            align-items: center;
+                            img{
+                                width: 1.875rem;
+                                height: 1.875rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .end{
+        .logo-links{
+            .logo-desc{
+                img{
+                    max-width: 70%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:576px){
+    @mixin BA-hero{
+        width: 40.125rem;
+        height: 40.125rem;
+        outline: 5.25rem solid #D9D9D9;
+        outline-offset: -5.25rem;
+    }
+    html{
+        font-size: 60%;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .hero-section{
+        header{
+            padding-inline: 2.5rem;
+            .logo{
+                img{
+                    max-width: 60%;
+                }
+            }
+        }
+        .hero{
+            padding-block-end: 0;
+            padding-block-end: 20.5rem;
+            .main-desc{
+                h1{
+                    max-width: 85%;
+                    position: relative;
+                    z-index: 999;
+                }
+            }
+            .main-button{
+                position: relative;
+                z-index: 9999;
+            }
+        }
+        &::before{
+            @include BA-hero;
+        }
+        &::after{
+            @include BA-hero;
+        }
+    }
+    .dashboard{
+        max-width: 90%;
+        img{
+            margin-block-start: -17.5rem;
+        }
+    }
+    .benefit-1{
+        .overview{
+            text-align: center;
+            .heading{
+                h1{
+                    grid-column: 1/ span 12;
+                }
+                .description{
+                    grid-column: 2/ span 10;
+                    text-align: center;
+                }
+            }
+        }
+        .benefit-card{
+            grid-template-columns: 1fr;
+            margin: 2.5rem;
+            .card{
+                margin-inline: 2.5rem;
+                text-align: center;
+                max-width: 70%;
+                margin-inline: auto;
+            }
+        }
+    }
+    .benefit-2{
+        padding-inline: 2.5rem;
+        .ben-2-content{
+            .left-col{
+                grid-column: 1/span 12;
+            }
+            .right-col{
+                margin-inline: auto;
+                grid-column: 3/span 10;
+                img{
+                    max-width: 80%;
+                }
+            }
+        }
+    }
+    .procedure-1{
+        .wrapper{
+            .proc-1-cards{
+                grid-template-columns: 1fr;
+                grid-gap: 2rem;
+                .proc-1-card{
+                    &::before{
+                        left: -2%;
+                        top: -3%;
+                    }
+                }
+            }
+        }
+    }
+    .procedure-2{
+        .wrapper2{
+            padding-inline: 2.5rem;
+            .left-col{
+                grid-column: 1/span 12;
+                img{
+                    margin-inline: auto;
+                    max-width: 100%;
+                }
+            }
+            .right-col{
+                grid-column: 1/span 12;
+                text-align: center;
+                .proc-2-steps{
+                    .proc-2-step{
+                        &:first-child::before{
+                            content: "";
+                            position: absolute;
+                            background: $prime-default500;
+                            width: 2.625rem;
+                            height: 0.125rem;
+                            transform: rotate(90deg);
+                            bottom: -44%;
+                            left: 0.5%;
+                        }
+                        &:nth-child(2):before{
+                            content: "";
+                            position: absolute;
+                            width: 0rem;
+                            height: 2.625rem;
+                            border: 0.063rem dashed white;
+                            bottom: -90%;
+                            left: 2.9%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .stories{
+        padding-inline: 2.5rem;
+        .desc-and-btn{
+            grid-column: 1/span 10;
+        }
+        .main-content{
+            .story-button{
+                margin-block: 1rem;
+            }
+            #contentContainer{
+                .content{
+                    .advantage{
+                        grid-column: 1/span 12;
+                    }
+                    .graph{
+                        grid-column: 1/ span 12;
+                    }
+                }
+            }
+        }
+    }
+    .pricing{
+        padding-inline: 5rem;
+        .overview{
+            .offer{
+                &::before{
+                    width: 3.567rem;
+                    height: 3.127rem;
+                    background: url('../src/Arrow_07.svg');
+                    background-size: 120%;
+                    top: -100%;
+                    right: -70%;
+                }
+            }
+        }
+        .pric-card{
+            .content{
+                .cards{
+                    grid-template-columns: 1fr;
+                    .card{
+                        width: 80%;
+                        margin-inline: auto;
+                        .features{
+                            .feature{
+                                img{
+                                    width: 1.5rem;
+                                    height: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cta{
+        padding-inline: 2.5rem;
+        .wrapper{
+            padding-inline: 2.5rem;
+            .left-col{
+                grid-column: 1/ span 12;
+                padding-block: 5rem;
+            }
+            .right-col{
+                grid-column: 1/ span 12;
+                margin-inline: auto;
+                padding: 0;
+                img{
+                    position: relative;
+                    border-top-right-radius: 0.75rem;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .end{
+        padding-inline: 2.5rem;
+        .logo-links{
+            .logo-desc{
+                grid-column: 1/ span 12;
+                display: flex;
+                gap: 2rem;
+                align-items: center;
+                img{
+                    width: 20%;
+                    padding: 0rem;
+                }
+            }
+            .links{
+                grid-column: 1/ span 12;
+            }
+        }
+    }
+    .testimonial{
+        .wrapper{
+            .slider-container{
+                .owl-carousel{
+                    padding-inline: 2.5rem;
+                    .item{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:425px){
+    html{
+        font-size: 50%;
+    }
+    .procedure-1{
+        .wrapper{
+            .proc-1-cards{
+                grid-template-columns: 1fr;
+                grid-gap: 2rem;
+                .proc-1-card{
+                    &::before{
+                        left: 19%;
+                        top: -6%;
+                    }
+                }
+            }
+        }
+    }
+    .procedure-2{
+        .wrapper2{
+            padding-inline: 2.5rem;
+            .left-col{
+                grid-column: 1/span 12;
+                img{
+                    margin-inline: auto;
+                    max-width: 100%;
+                }
+            }
+            .right-col{
+                grid-column: 1/span 12;
+                text-align: center;
+                .proc-2-steps{
+                    .proc-2-step{
+                        &:first-child::before{
+                            content: "";
+                            position: absolute;
+                            background: $prime-default500;
+                            width: 2.625rem;
+                            height: 0.125rem;
+                            transform: rotate(90deg);
+                            bottom: -44%;
+                            left: 0.5%;
+                        }
+                        &:nth-child(2):before{
+                            content: "";
+                            position: absolute;
+                            width: 0rem;
+                            height: 2.625rem;
+                            border: 0.063rem dashed white;
+                            bottom: -90%;
+                            left: 3.1%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:376px){
+    .hero-section{
+        .hero{
+            .main-desc{
+                h1{
+                    max-width: 100%;
+                }
+                .desc{
+                    max-width: 90%;
+                }
+            }
+        }
+    }
+    .procedure-1{
+        .wrapper{
+            .proc-1-cards{
+                grid-template-columns: 1fr;
+                grid-gap: 2rem;
+                .proc-1-card{
+                    &::before{
+                        left: 15%;
+                        top: -6%;
+                    }
+                }
+            }
+        }
+    }
+    .procedure-2{
+        .wrapper2{
+            padding-inline: 2.5rem;
+            .left-col{
+                grid-column: 1/span 12;
+                img{
+                    margin-inline: auto;
+                    max-width: 100%;
+                }
+            }
+            .right-col{
+                grid-column: 1/span 12;
+                text-align: center;
+                .proc-2-steps{
+                    .proc-2-step{
+                        &:first-child::before{
+                            content: "";
+                            position: absolute;
+                            background: $prime-default500;
+                            width: 2.625rem;
+                            height: 0.125rem;
+                            transform: rotate(90deg);
+                            bottom: -44%;
+                            left: 0.5%;
+                        }
+                        &:nth-child(2):before{
+                            content: "";
+                            position: absolute;
+                            width: 0rem;
+                            height: 2.625rem;
+                            border: 0.063rem dashed white;
+                            bottom: -90%;
+                            left: 4%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .end{
+        padding-inline: 2.5rem;
+        .logo-links{
+            .logo-desc{
+                grid-column: 1/ span 12;
+                display: flex;
+                gap: 2rem;
+                align-items: center;
+                img{
+                    width: 20%;
+                    padding: 0rem;
+                }
+            }
+            .links{
+                grid-column: 1/ span 12;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        .privacy-terms{
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}
